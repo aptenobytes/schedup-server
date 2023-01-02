@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: schedup-server.schedup.io
+  labels:
+    app: schedup-server
+spec:
+  containers:
+    - name: schedup-server
+      image: roiaptenobytes/schedup-server
+      ports:
+        - containerPort: 3000
