@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 node:16
+FROM --platform=linux/amd64 node:lts-alpine
 WORKDIR /app
 ADD . /app
 RUN npm install
