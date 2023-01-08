@@ -9,4 +9,5 @@ spec:
     - name: schedup-server
       image: roiaptenobytes/schedup-server
       ports:
-        - containerPort: 3000
+      - name: nest-port
+        containerPort: 3000

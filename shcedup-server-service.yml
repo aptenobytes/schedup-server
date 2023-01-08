@@ -5,7 +5,7 @@ metadata:
 spec:
   ports:
     - port: 80
-      targetPort: nodejs-port
+      targetPort: nest-port
       protocol: TCP
   selector:
     app: schedup-server
